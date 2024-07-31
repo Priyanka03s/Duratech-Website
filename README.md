@@ -1,1 +1,1 @@
-duratechengineeringsystems.co.in
+https://duratechengineeringsystems.co.in
