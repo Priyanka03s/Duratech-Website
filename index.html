@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dura Tech</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- js Email -->
+   
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-X7WHE6GLFE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-X7WHE6GLFE");
+    </script>
+  </head>
+
+  <body>
+    <div class="banner">
+      <nav>
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="./assets/images/icon-logo-removebg-preview (2).png"
+              alt=""
+            />Duratech Engineering Systems</a
+          >
+        </div>
+
+        <div class="toggle">
+          <a href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <ul class="menu">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./aboutus.html">ABOUT</a></li>
+          <li><a href="./products.html">PRODUCTS</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div id="home" class="content">
+        <h1 class="text">Welcome to Duratech Engineering Systems</h1>
+        <p>
+          Your Trusted Partner for High-Quality Parts in Stainless Steel |
+          Quality you can trust, reliability you can count on.
+          <br />Press the button below to learn more about our products.
+        </p>
+        <div>
+          <a href="./products.html"
+            ><button type="button"><span></span class="expolre">Explore Our Products</button></a
+          >
+          <a href="./contact.html"
+            ><button type="button"><span></span>Contact us</button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:+1948777005">948777005</a> |
+                <strong>Email:</strong>
+                <a href="mailto:duratech0006@gmail.com"
+                  >duratech0006@gmail.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p>Connect with us on social media:</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61562037156880"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/duratech-engineering-system-77b381318/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/duratech_engineering_system/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                &copy; 2024 Dura Tech Engineering System. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
+          if ($(".menu").hasClass("active")) {
+            $(".menu").removeClass("active");
+            $(this).find("a").html('<i class="fa-solid fa-bars"></i>');
+          } else {
+            $(".menu").addClass("active");
+            $(this).find("a").html("<i class='fa-solid fa-x'></i>");
+          }
+        });
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

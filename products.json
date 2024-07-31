@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Turbo Charger Casting",
+    "image": "./assets/images/turbo.jpeg",
+    "description": "High-quality turbo charger casting solutions for various applications."
+  },
+  {
+    "id": 2,
+    "name": "Windmill Gearbox Parts",
+    "image": "./assets/images/Windmill .webp",
+    "description": "Durable and reliable parts for windmill gearboxes."
+  },
+  {
+    "id": 3,
+    "name": "Railway Products",
+    "image": "./assets/images/Railway.png",
+    "description": "Premium quality products for the railway industry."
+  },
+  {
+    "id": 4,
+    "name": "Diesel Engine Parts",
+    "image": "./assets/images/Diesel Engine.webp",
+    "description": "Reliable parts for diesel engines of various types."
+  },
+  {
+    "id": 5,
+    "name": "Printing Machinery Parts",
+    "image": "./assets/images/Printing.avif",
+    "description": "High-performance parts for printing machinery."
+  },
+  {
+    "id": 6,
+    "name": "Valve Parts",
+    "image": "./assets/images/Valve.jpg",
+    "description": "Top-quality valve parts for various industrial applications."
+  }
+]
